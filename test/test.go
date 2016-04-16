@@ -2,7 +2,7 @@ package main
 
 import (
     "fmt"
-    "github.com/hserge/goga/helper/string"
+    "github.com/hserge/goga/helper/sstring"
 )
 
 func main() {
