@@ -1,11 +1,12 @@
 package main
 
 import (
-    "fmt"
-    "github.com/hserge/goga/helper/sstring"
+	"fmt"
+
+	helper "github.com/hserge/goga/helper"
 )
 
 func main() {
-    s:=string.ToggleCase("Ghoper")
-    fmt.Println("Converted string is : ", s)
+	s := helper.ToggleCase("Ghoper")
+	fmt.Println("Converted string is : ", s)
 }
